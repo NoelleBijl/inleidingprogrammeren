@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heksspel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="spel">
+        <img src="images/jongen.png" alt="jongen" class="jongen"/>
+        <img src="images/meisje.png" alt="meisje" class="meisje"/>
+        <img src="images/ketel.png"  alt="ketel" class="ketel"/>
+        <img src="images/tekstwolknew1.png" alt="Kan je me laten vliegen?" class="tekstwolk1 hidden"/>
+        <img src="images/tekstwolknew2.png" alt="Ik heb het gele en rode drankje nodig" class="tekstwolk2 hidden"/>
+        <img src="images/tekstwolknew3.png" alt="Ga opzoek naar deze drankjes en sleep ze in de ketel" class="tekstwolk3 hidden"/>
+        <img src="images/meisjeroerend.png" alt="heks roert" class="heks_roert hidden"/>
+        <img src="images/meisjebezorgd.png" alt="bezorgd meisje" class="meisje_bezorgd hidden"/>
+        <img src="images/jongenvliegend.png" alt="jongen vliegt" class="jongen_vliegt hidden"/>
+        <img src="images/jongenziek.png" alt="jongen ziek" class="jongen_ziek hidden"/>
+        <img src="images/jongengroen.png" alt="jongen groen" class="jongen_groen hidden"/>
+
+
+        <button class="kikkerknop" draggable="true">
+            <img src="images/kikkerdrankje.png" alt="kikkerdrankje" id="kikkerDrankje">
+        </button>
+        <button class="geelDrankjeKnop" draggable="true">
+            <img src="images/geeldrankje.png" alt="geeldrankje" id="geelDrankje">
+        </button>
+        <button class="groenDrankjeKnop" draggable="true">
+            <img src="images/groendrankje.png" alt="groendrankje" id="groenDrankje">
+        </button>
+        <button class="oranjeDrankjeKnop" draggable="true">
+            <img src="images/oranjedrankje.png" alt="oranjedrankje" id="oranjeDrankje">
+        </button>
+        <button class="paarsDrankjeKnop" draggable="true">
+            <img src="images/paarsdrankje.png" alt="paarsdrankje" id="paarsDrankje">
+        </button>
+        <button class="roodDrankjeKnop" draggable="true">
+            <img src="images/rooddrankje.png" alt="rooddrankje" id="roodDrankje">
+        </button>
+        <button class="skeletDrankjeKnop" draggable="true">
+            <img src="images/skeletdrankje.png" alt="skeletdrankje" id="skeletDrankje">
+        </button>
+
+<audio id="geluidDrankje" src="audio/zevenheksenliedje.mp3" autoplay></audio>
+
+    </div>
+
+    <script src="js/heks.js"></script>
+</body>
+
+    </html>
