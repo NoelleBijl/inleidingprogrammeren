@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('achtergrondheks.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;            
+  }
+
+.jongen {
+    position: absolute;
+    left: 76em;
+    bottom: 1em;
+    width: 18em;
+}
+
+.jongen_vliegt {
+    position: absolute;
+    left: 76em;
+    bottom: 8em;
+    width: 18em;
+}
+
+.jongen_ziek {
+    position: absolute;
+    left: 76em;
+    bottom: 1em;
+    width: 18em;
+}
+
+.jongen_groen {
+    position: absolute;
+    left: 76em;
+    bottom: 1em;
+    width: 18em;
+}
+
+.meisje {
+    position: absolute;
+    left: 25em;
+    bottom: 1em;
+    width: 27em;
+}
+
+.meisje_bezorgd {
+    position: absolute;
+    left: 25em;
+    bottom: 1em;
+    width: 27em;
+}
+
+.heks_roert {
+    position: absolute;
+    left: 40em;
+    bottom: 1em;
+    width: 27em;
+}
+
+.ketel {
+    position: absolute;
+    left: 52em;
+    bottom: 1em;
+    width: 16em;
+  }
+
+.tekstwolk1 {
+    position: absolute;
+    left: 65em;
+    bottom: 33em;
+    width: 18em;
+}
+
+.tekstwolk2 {
+  position: absolute;
+  left: 38em;
+  bottom: 29em;
+  width: 18em;
+}
+
+.tekstwolk3 {
+  position: absolute;
+  left: 38em;
+  bottom: 29em;
+  width: 18em;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.kikkerknop {
+  position: absolute;
+  left: 20em;
+  bottom: 45.3em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.kikkerknop img {
+  width: 7em;
+  transition: transform 0.2s;
+}
+
+
+.kikkerknop:hover img {
+  transform: scale(1.05);
+}
+
+.kikkerknop:active img {
+  transform: scale(0.95);
+}
+ 
+
+.geelDrankjeKnop {
+  position: absolute;
+  left: 18em;
+  bottom: 16em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+    
+}
+
+.geelDrankjeKnop img {
+  width: 3.8em;
+  transition: transform 0.2s;
+}
+
+.geelDrankjeKnop:hover img {
+  transform: scale(1.05);
+}
+
+.geelDrankjeKnop:active img {
+  transform: scale(0.95);
+}
+
+.groenDrankjeKnop {
+  position: absolute;
+  left: 22em;
+  bottom: 15.8em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;  
+}
+
+.groenDrankjeKnop img {
+  width: 6em;
+  transition: transform 0.2s;
+}
+
+.groenDrankjeKnop:hover img {
+  transform: scale(1.05);
+}
+
+.groenDrankjeKnop:active img {
+  transform: scale(0.95);
+}
+
+
+.oranjeDrankjeKnop {
+  position: absolute;
+  left: 7em;
+  bottom: 31em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.oranjeDrankjeKnop img {
+  width: 4em;
+  transition: transform 0.2s;
+}
+
+.oranjeDrankjeKnop:hover img {
+  transform: scale(1.05);
+}
+
+.oranjeDrankjeKnop:active img {
+  transform: scale(0.95);
+}
+
+.paarsDrankjeKnop {
+  position: absolute;
+  left: 16em;
+  bottom: 31em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.paarsDrankjeKnop img {
+  width: 7em;
+  transition: transform 0.2s;
+}
+
+.paarsDrankjeKnop:hover img {
+  transform: scale(1.05);
+}
+
+.paarsDrankjeKnop:active img {
+  transform: scale(0.95);
+}
+
+.roodDrankjeKnop {
+  position: absolute;
+  left: 9em;
+  bottom: 46.5em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.roodDrankjeKnop img {
+  width: 6em;
+  transition: transform 0.2s;
+}
+
+.roodDrankjeKnop:hover img {
+  transform: scale(1.05);
+}
+
+.roodDrankjeKnop:active img {
+  transform: scale(0.95);
+}
+
+.skeletDrankjeKnop {
+  position: absolute;
+  left: 8em;
+  bottom: 15em;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.skeletDrankjeKnop img {
+  width: 6em;
+  transition: transform 0.2s;
+}
+
+.skeletDrankjeKnop:hover img {
+  transform: scale(1.05);
+}
+
+.skeletDrankjeKnop:active img {
+  transform: scale(0.95);
+}
+
+
